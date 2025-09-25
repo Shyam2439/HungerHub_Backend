@@ -33,6 +33,6 @@ app.listen(PORT,()=>{
     console.log(`server is running at port ${PORT}`)
 })
 
-app.use('/',(req,res)=>{
-    res.send("<h1> Welcome to HungerHub </h1>");
+app.get('/',(req,res)=>{
+    res.send(" Welcome to HungerHub ");
 })
