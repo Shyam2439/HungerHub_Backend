@@ -34,5 +34,5 @@ app.listen(PORT,()=>{
 })
 
 app.use('/',(req,res)=>{
-    res.send("<h1> Welcome to HungerHub");
+    res.send("<h1> Welcome to HungerHub </h1>");
 })
